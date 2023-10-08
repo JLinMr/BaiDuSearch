@@ -144,7 +144,7 @@ footer a:hover {
 @media (prefers-color-scheme:dark) {
     html {
       background: #fff;
-      filter: brightness(.6);
-      -webkit-filter: brightness(.6);
+      filter: brightness(.9);
+      -webkit-filter: brightness(.9);
     }
 }
