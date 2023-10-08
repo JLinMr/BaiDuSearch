@@ -16,10 +16,6 @@ https://bsgun.cn 【写作不易】                  -
 	margin:0;padding:0;
 }
 
-.search {
-	background: white;
-}
-
 .logo {
 	height: 320px;
 	background: url(../img/LOGO.gif) no-repeat center;
@@ -134,11 +130,21 @@ footer a:hover {
 	}
     .search-input-button {
     	display: none!important;
-  }
+    }
+    .search {
+	    background: white;
+    }
 }
 
 @media (max-height:400px) {
 	.logo,footer {
 		display: none!important;
 	}
+}
+@media (prefers-color-scheme:dark) {
+    html {
+      background: #fff;
+      filter: brightness(.6);
+      -webkit-filter: brightness(.6);
+    }
 }
