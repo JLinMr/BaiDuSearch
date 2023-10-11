@@ -139,8 +139,8 @@ footer a:hover {
 }
 @media (max-height:600px) {
     .logo {
-       background-size: 75%!important;
-      height: 210px!important;
+       background-size: 80%!important;
+       height: 210px!important;
    }
     .HuuH{
        display: none!important;
@@ -150,7 +150,7 @@ footer a:hover {
    }
 }
 
-@media (max-height:400px) {
+@media (max-height:300px) {
    .logo {
        display: none!important;
   }
