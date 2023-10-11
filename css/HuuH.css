@@ -141,14 +141,9 @@ https://bsgun.cn 【写作不易】                  -
          transition: all .3s!important;
     }
 }
- @media (max-height:500px) {
+ @media (max-height:600px) {
      footer {
          display: none!important;
-    }
-}
- @media (max-height:600px) {
-     form {
-         height: 1000px!important;
     }
 }
  @media (prefers-color-scheme:dark) {
