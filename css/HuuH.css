@@ -192,9 +192,9 @@ footer a:hover {
 	.logo {
 		display: none!important
 	}
-	.search {
-                display: flex!important;
-        }
+	.search {
+        	display: flex!important;
+    }
 }
 
 @media (prefers-color-scheme:dark) {
