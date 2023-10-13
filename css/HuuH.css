@@ -165,11 +165,11 @@ footer a:hover {
 	.search-input-button {
 		top: 0!important;
 		width: 1.6em!important;
-		height: 1.6em!important
+		height: 1.6em!important;
 	}
 
 	.search {
-		display: table-footer-group!important
+		display: table-footer-group!important;
 	}
 }
 
@@ -180,11 +180,11 @@ footer a:hover {
 	}
 
 	.HuuH {
-		display: none!important
+		display: none!important;
 	}
 
 	footer {
-		display: none!important
+		display: none!important;
 	}
 }
 
@@ -192,6 +192,9 @@ footer a:hover {
 	.logo {
 		display: none!important
 	}
+	.search {
+                display: flex!important;
+        }
 }
 
 @media (prefers-color-scheme:dark) {
