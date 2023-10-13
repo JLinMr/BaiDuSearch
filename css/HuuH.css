@@ -21,6 +21,16 @@ https://bsgun.cn 【写作不易】                  -
     background-size: 675px 325px;
     transition: all .3s;
 }
+.search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .search_form {
    max-width: 60rem;
    width: calc(100% - 20px);
@@ -136,11 +146,14 @@ footer a:hover {
        width: 1.6em!important;
        height: 1.6em!important;
   }
+  .search {
+      display: table-footer-group!important;
+  }
 }
 @media (max-height:600px) {
-    .logo {
-       background-size: 80%!important;
-       height: 210px!important;
+     .logo {
+        background-size: 80%!important;
+        height: 210px!important;
    }
     .HuuH{
        display: none!important;
@@ -150,7 +163,7 @@ footer a:hover {
    }
 }
 
-@media (max-height:300px) {
+@media (max-height:400px) {
    .logo {
        display: none!important;
   }
