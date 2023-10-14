@@ -20,11 +20,12 @@ https://www.bsgun.cn 【写作不易】              -
 }
 
 .logo {
-	height: 290px;
+	height: 280px;
 	background: url(../img/LOGO.gif) no-repeat center;
-	/* background: url(https://i0.wp.com/sy.bsgun.cn/img/LOGO.gif) no-repeat center; */
-	background-size: 675px 325px;
-	transition: all .3s
+	margin: -30px auto;
+	width: calc(100% - 20px);
+	transition: all .3s;
+	background-size: 575px 285px;
 }
 
 .search {
@@ -35,7 +36,8 @@ https://www.bsgun.cn 【写作不易】              -
 	width: 100%;
 	height: 80%;
 	flex-direction: column;
-	justify-content: center
+	justify-content: center;
+	margin: -60px auto;
 }
 
 .search_form {
@@ -46,7 +48,7 @@ https://www.bsgun.cn 【写作不易】              -
 }
 
 .search-input-text {
-	display: block;
+	display: flex;
 	width: 100%;
 	height: 3.5em;
 	border: 1px solid #ddd;
@@ -66,7 +68,7 @@ https://www.bsgun.cn 【写作不易】              -
 
 form {
 	position: relative;
-	margin: auto
+	margin: auto;
 }
 
 .lg {
@@ -109,13 +111,13 @@ input {
 .icp {
 	margin: 10px 0 0;
 	color: #ccc;
-	font-size: 11px
+	font-size: 11px;
 }
 
 footer a {
 	margin: 0 6px;
 	color: #a6a6a6;
-	font-size: 12px;
+	font-size: 10px;
 	transition: all .4s
 }
 
@@ -137,8 +139,8 @@ footer a:hover {
 	width: 48px;
 	height: 30px;
 	background-image: url(../img/5x.png);
-	/* background-image: url(https://i0.wp.com/sy.bsgun.cn/img/5x.png); */	
-	background-size: cover
+	/* background-image: url(https://i0.wp.com/sy.bsgun.cn/img/5x.png); */
+	background-size: cover;
 }
 
 @media (max-width:768px) {
@@ -147,7 +149,9 @@ footer a:hover {
 	}
 
 	.logo {
-		background-size: 90%!important
+		background-size: 100%!important;
+		margin: auto;
+		width: calc(100% - 45px);
 	}
 
 	.search-input-text {
@@ -164,7 +168,7 @@ footer a:hover {
 		top: 10px!important;
 		left: 10px!important;
 		width: 2em!important;
-		height: 2em!important
+		height: 2em!important;
 	}
 
 	.search-input-button {
@@ -175,13 +179,14 @@ footer a:hover {
 
 	.search {
 		display: table-footer-group!important;
+		margin: auto;
 	}
 }
 
 @media (max-height:600px) {
 	.logo {
 		height: 210px!important;
-		background-size: 80%!important
+		width: calc(85% - 45px);
 	}
 
 	.HuuH {
