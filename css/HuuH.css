@@ -32,7 +32,15 @@ https://www.bsgun.cn 【写作不易】              -
 	transition: all .3s;
 	background-size: 575px 285px;
 }
-
+em.logotitle {
+    margin: -10px auto;
+    padding: 5px;
+    transition: all .3s;
+    text-align: center;
+    width: calc(100% - 20px);
+    max-width: 60rem;
+    color: #fff;
+}
 .search {
 	position: absolute;
 	top: 0;
