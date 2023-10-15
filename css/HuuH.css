@@ -18,7 +18,11 @@ https://www.bsgun.cn 【写作不易】              -
 	-webkit-user-select: none;
 	user-select: none
 }
-
+.logo:hover ~ em {
+	border-radius: 15px;
+	max-width: 40rem;
+	background-image: linear-gradient(-210deg,#fd4eff7a 0,#35a973bd 100%)!important;
+	}
 .logo {
 	height: 280px;
 	background: url(../img/LOGO.gif) no-repeat center;
@@ -38,7 +42,7 @@ https://www.bsgun.cn 【写作不易】              -
 	height: 80%;
 	flex-direction: column;
 	justify-content: center;
-	margin: -60px auto;
+	margin: -65px auto;
 }
 
 .search_form {
@@ -145,7 +149,7 @@ footer a:hover {
 }
 
 @media (max-width:768px) {
-	.HuuH {
+	.HuuH, .logotitle {
 		display: none!important
 	}
 
@@ -190,11 +194,7 @@ footer a:hover {
 		width: calc(85% - 45px);
 	}
 
-	.HuuH {
-		display: none!important;
-	}
-
-	footer {
+	footer, .logotitle, .HuuH {
 		display: none!important;
 	}
 }
