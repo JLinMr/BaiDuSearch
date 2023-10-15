@@ -22,6 +22,7 @@ https://www.bsgun.cn 【写作不易】              -
 .logo {
 	height: 280px;
 	background: url(../img/LOGO.gif) no-repeat center;
+	/* background: url(https://i0.wp.com/sy.bsgun.cn/img/LOGO.gif) no-repeat center/cover; */
 	margin: -30px auto;
 	width: calc(100% - 20px);
 	transition: all .3s;
