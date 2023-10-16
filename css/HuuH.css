@@ -16,14 +16,16 @@ https://www.bsgun.cn 【写作不易】              -
 	margin: 0;
 	padding: 0;
 	-webkit-user-select: none;
-	user-select: none
+	user-select: none;
 }
+
 .logo:hover ~ em {
 	border-radius: 15px;
 	max-width: 45rem;
 	background-image: linear-gradient(-210deg,#fd4eff7a 0,#35a973bd 100%)!important;
 	transition: all .3s;
-	}
+}
+
 .logo {
 	height: 280px;
 	background: url(../img/LOGO.gif) no-repeat center;
@@ -33,17 +35,19 @@ https://www.bsgun.cn 【写作不易】              -
 	transition: all .3s;
 	background-size: 575px 285px;
 	z-index: 1;
-    max-width: 40rem;
+	max-width: 40rem;
 }
+
 .logotitle {
-    margin: -10px auto;
-    padding: 5px;
-    text-align: center;
-    width: calc(100% - 20px);
-    max-width: 60rem;
-    color: #fff;
+	margin: -10px auto;
+	padding: 5px;
+	text-align: center;
+	width: calc(100% - 20px);
+	max-width: 60rem;
+	color: #fff;
 	transition: all .3s;
 }
+
 .search {
 	position: absolute;
 	top: 0;
@@ -60,7 +64,7 @@ https://www.bsgun.cn 【写作不易】              -
 	margin: 20px auto;
 	width: calc(100% - 20px);
 	max-width: 60rem;
-	transition: all .3s
+	transition: all .3s;
 }
 
 .search-input-text {
@@ -73,13 +77,13 @@ https://www.bsgun.cn 【写作不易】              -
 	font-size: 19px;
 	line-height: 100%;
 	transition: all .3s;
-	-webkit-appearance: none
+	-webkit-appearance: none;
 }
 
 .search-input-text:focus {
 	border-color: #fff;
 	-webkit-box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
-	box-shadow: 0 1px 6px 0 rgba(32,33,36,.28)
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
 }
 
 form {
@@ -96,7 +100,7 @@ form {
 	border-radius: 50%;
 	background: url(../img/baidu.png) no-repeat center/cover;
 	/* background: url(https://i0.wp.com/sy.bsgun.cn/img/baidu.png) no-repeat center/cover; */
-	transition: all .3s
+	transition: all .3s;
 }
 
 .search-input-button {
@@ -104,14 +108,14 @@ form {
 	top: 10px;
 	right: 10px;
 	font-size: 2rem;
-	transition: all .3s
+	transition: all .3s;
 }
 
 input {
 	outline: 0;
 	border: none;
 	background: 0 0;
-	-webkit-appearance: none
+	-webkit-appearance: none;
 }
 
 .HuuH {
@@ -121,7 +125,7 @@ input {
 	width: 300px;
 	height: 300px;
 	background: url(../img/HUH.webp)
-	/* background: url(https://i0.wp.com/sy.bsgun.cn/img/HUH.webp) */
+	/* background: url(https://i0.wp.com/sy.bsgun.cn/img/HUH.webp) */;
 }
 
 .icp {
@@ -134,11 +138,11 @@ footer a {
 	margin: 0 6px;
 	color: #a6a6a6;
 	font-size: 10px;
-	transition: all .4s
+	transition: all .4s;
 }
 
 footer a:hover {
-	color: pink
+	color: pink;
 }
 
 .footer-nav {
@@ -147,7 +151,7 @@ footer a:hover {
 	left: 5%;
 	z-index: -999;
 	width: 90%;
-	text-align: center
+	text-align: center;
 }
 
 .guoqi {
@@ -159,9 +163,38 @@ footer a:hover {
 	background-size: cover;
 }
 
+.suggest {
+	position: absolute;
+	background: #f4f4f4;
+	display: none;
+	margin: auto;
+	width: calc(100% - 110px);
+	max-width: 60rem;
+	left: 55px;
+	top: 72px;
+	border-radius: 10px;
+}
+
+.suggest ul {
+	list-style: none;
+}
+
+.suggest ul li {
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 10px;
+	transition: all .4s;
+}
+
+.suggest ul li:hover {
+	background-color: #e9e9e9;
+}
+
 @media (max-width:768px) {
 	.HuuH, .logotitle {
-		display: none!important
+		display: none!important;
 	}
 
 	.logo {
@@ -177,7 +210,7 @@ footer a:hover {
 		border-width: 1px!important;
 		border-image-repeat: initial!important;
 		text-indent: 45px!important;
-		transition: all .3s!important
+		transition: all .3s!important;
 	}
 
 	.lg {
@@ -197,6 +230,10 @@ footer a:hover {
 		display: table-footer-group!important;
 		margin: auto;
 	}
+
+	.suggest {
+		top: 52px!important;
+	}
 }
 
 @media (max-height:600px) {
@@ -212,11 +249,12 @@ footer a:hover {
 
 @media (max-height:400px) {
 	.logo {
-		display: none!important
+		display: none!important;
 	}
+
 	.search {
-        	display: flex!important;
-    }
+		display: flex!important;
+	}
 }
 
 @media (prefers-color-scheme:dark) {
@@ -224,6 +262,6 @@ footer a:hover {
 		background: #fff!important;
 		transition: all .3s!important;
 		filter: brightness(.8)!important;
-		-webkit-filter: brightness(.8)!important
+		-webkit-filter: brightness(.8)!important;
 	}
 }
