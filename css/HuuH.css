@@ -149,7 +149,6 @@ footer a:hover {
 	position: absolute;
 	bottom: 0;
 	left: 5%;
-	z-index: -999;
 	width: 90%;
 	text-align: center;
 }
@@ -173,6 +172,7 @@ footer a:hover {
 	left: 55px;
 	top: 72px;
 	border-radius: 10px;
+	z-index: 1;
 }
 
 .suggest ul {
