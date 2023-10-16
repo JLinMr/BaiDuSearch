@@ -32,6 +32,8 @@ https://www.bsgun.cn 【写作不易】              -
 	width: calc(100% - 20px);
 	transition: all .3s;
 	background-size: 575px 285px;
+	z-index: 1;
+    max-width: 40rem;
 }
 .logotitle {
     margin: -10px auto;
