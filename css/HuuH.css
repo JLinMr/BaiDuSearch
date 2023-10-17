@@ -4,11 +4,11 @@ JLin                                           -
                                                -
 Date: 2021/03/17                               -
                                                -
-update：2023/10/13                             -
+update：2023/10/17                             -
                                                -
-https://www.bsgun.cn 【写作不易】              -
+https://www.bsgun.cn 【写作不易】               -
                                                -
-看见这个我希望你能够留下我信息                 -
+看见这个我希望你能够留下我信息                   -
                                                -
 -----------------------------------------------*/
 /* 注释掉的URL为wp的静态图片CDN加速永久缓存速度很快呀建议使用 */
@@ -16,14 +16,9 @@ https://www.bsgun.cn 【写作不易】              -
 	margin: 0;
 	padding: 0;
 	-webkit-user-select: none;
-	user-select: none;
-}
-
-.logo:hover ~ em {
-	border-radius: 15px;
-	max-width: 45rem;
-	background-image: linear-gradient(-210deg,#fd4eff7a 0,#35a973bd 100%)!important;
-	transition: all .3s;
+	-moz-user-select: none;
+	 -ms-user-select: none;
+	     user-select: none;
 }
 
 .logo {
@@ -34,20 +29,34 @@ https://www.bsgun.cn 【写作不易】              -
 	width: calc(100% - 20px);
 	transition: all .3s;
 	background-size: 575px 285px;
-	z-index: 1;
 	max-width: 40rem;
+}
+button {
+    margin: 0 12px;
+    color: #f45873;
+    font-size: 11px;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+button:focus ~ em {
+	right: 0;
 }
 
 .logotitle {
-	margin: -10px auto;
-	padding: 5px;
-	text-align: center;
-	width: calc(100% - 20px);
-	max-width: 60rem;
-	color: #fff;
-	transition: all .3s;
+    position: fixed;
+    top: 0;
+    right: -25%;
+    width: 15%;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 15px;
+    margin: 15px;
+    transition: all .4s;
+    color: rgb(0 0 0 / 60%);
+    border-radius: 15px;
+    background: rgb(209 209 209 / 30%);
 }
-
 .search {
 	position: absolute;
 	top: 0;
@@ -82,7 +91,6 @@ https://www.bsgun.cn 【写作不易】              -
 
 .search-input-text:focus {
 	border-color: #fff;
-	-webkit-box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
 	box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
 }
 
@@ -248,7 +256,7 @@ footer a:hover {
 	}
 }
 
-@media (max-height:400px) {
+@media(max-height:400px) {
 	.logo {
 		display: none!important;
 	}
