@@ -54,9 +54,9 @@ function handleSuggestion(res) {
     // 清空之前的数据！！
     clearContent();
     var result = res.s;
-    // 截取前五个搜索建议项
+    // 截取前六个搜索建议项
     if (result.length > 4) {
-        result = result.slice(0, 5)
+        result = result.slice(0, 6)
     }
     for (let i = 0; i < result.length; i++) {
         // 动态创建li标签
