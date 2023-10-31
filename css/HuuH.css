@@ -210,7 +210,7 @@ footer a:hover {
 
 	.logo {
 		background-size: 100%!important;
-		margin: auto;
+		margin: -15px auto;
 		width: calc(100% - 45px);
 	}
 
@@ -244,6 +244,8 @@ footer a:hover {
 
 	.suggest {
 		top: 52px!important;
+		left: 30px;
+		width: calc(100% - 60px);
 	}
 }
 
