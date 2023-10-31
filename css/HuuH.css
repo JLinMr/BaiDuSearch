@@ -66,7 +66,7 @@ https://www.bsgun.cn 【写作不易】               -
 
 .search-input-text:focus {
 	border-color: #fff;
-	box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+    box-shadow: 0 1px 10px 0 #d7d7d7;
 }
 
 form {
@@ -157,9 +157,10 @@ footer a:hover {
     padding: 15px;
     margin: 15px;
     transition: all .4s;
-    color: rgb(0 0 0 / 60%);
+    color: #6a6a6a;
     border-radius: 15px;
-    background: #f1f1f1;
+	background-color: #fff;
+    box-shadow: 0 0px 10px 0 #d1d1d1;
 }
 .guoqi {
 	margin: 10px auto;
@@ -172,7 +173,6 @@ footer a:hover {
 
 .suggest {
 	position: absolute;
-	background: #f4f4f4;
 	display: none;
 	margin: auto;
 	width: calc(100% - 110px);
@@ -181,6 +181,7 @@ footer a:hover {
 	top: 72px;
 	border-radius: 10px;
 	z-index: 1;
+	box-shadow: 0 0px 10px 0 #dfdfdf;
 }
 
 .suggest ul {
@@ -197,8 +198,9 @@ footer a:hover {
 }
 
 .suggest ul li:hover {
-	background-color: #e9e9e9;
-	text-indent: 12px;
+    background-color: #f1f1f1;
+    text-indent: 12px;
+    box-shadow: 0 0px 10px 0 #eee;
 }
 
 @media (max-width:768px) {
