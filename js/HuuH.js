@@ -4,11 +4,11 @@ JLin                                           -
                                                -
 Date: 2021/03/17                               -
                                                -
-update：2023/10/13                             -
+update：2023/10/28                             -
                                                -
-https://www.bsgun.cn 【写作不易】              -
+https://www.bsgun.cn 【写作不易】               -
                                                -
-看见这个我希望你能够留下我信息                 -
+看见这个我希望你能够留下我信息                   -
                                                -
 -----------------------------------------------*/
 var suggestContainer = document.getElementsByClassName("suggest")[0];
