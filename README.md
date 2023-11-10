@@ -2,7 +2,7 @@
 
 简单的搜索，百度的太臃肿，重新弄了一个
 
-![搜索页面](https://s2.loli.net/2023/10/16/5fnWV8GPkpqvwuK.png)
+![搜索页面](https://i0.wp.com/s2.loli.net/2023/10/16/5fnWV8GPkpqvwuK.png)
 
 >本站与百度公司没有任何联系，baidu 以及本站出现的百度公司 Logo 是百度公司的商标
 
