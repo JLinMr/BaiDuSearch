@@ -16,9 +16,9 @@
 
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
-- [百度搜索](https://sy.bsgun.cn)
-- [百度搜索 - Dev](https://m.bsgun.cn)
-- [百度搜索- 备用线路](https://jlinmr.gitee.io/baidusearch/)
+- [百度搜索](https://m.bsgun.cn)
+- [百度搜索 - Dev](https://m.bsgun.cn/dev)
+- [百度搜索- 备用线路-更新不及时](https://jlinmr.gitee.io/baidusearch/)
 
 ### 功能
 
